@@ -1,0 +1,41 @@
+#info {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#info .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-pet {
+    margin: 10px;
+}
+
+.info-pet img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    transition: all 0.5s ease;
+}
+
+.info-pet img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+@media (min-width:480px) {
+    .info-pet {
+        width: auto;
+    }
+}
+
+@media (min-width:1024px) {
+    .info-pet {
+        width: auto;
+    }
+}
